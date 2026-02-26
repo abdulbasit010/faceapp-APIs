@@ -4,3 +4,4 @@ flask-restful
 requests
 Werkzeug
 Pillow
+gunicorn
