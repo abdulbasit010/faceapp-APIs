@@ -92,4 +92,5 @@ def search_req_similar_v1():
     })
 
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 5002))  # default to 5000 if PORT is not set
+    app.run(host="0.0.0.0", port=port)
