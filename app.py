@@ -90,3 +90,6 @@ def search_req_similar_v1():
         'URL': image_url,
         'filepath': filepath
     })
+
+if __name__ == "__main__":
+    app.run()
