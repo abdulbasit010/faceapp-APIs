@@ -5,3 +5,8 @@ requests
 Werkzeug
 Pillow
 gunicorn
+flask
+face_recognition
+pillow-heif
+numpy
+opencv-python-headless
