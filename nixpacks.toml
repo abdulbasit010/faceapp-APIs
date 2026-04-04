@@ -1,10 +1,15 @@
 [phases.setup]
 nixPkgs = [
+  "gcc",
+  "gnumake",
+  "cmake",
   "libGL",
   "libGLU",
   "xorg.libX11",
   "xorg.libXext",
   "xorg.libSM",
   "xorg.libICE",
-  "glib"
+  "gtk3",
+  "openblas",
+  "lapack"
 ]
