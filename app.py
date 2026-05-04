@@ -225,9 +225,9 @@ def download_file():
     return send_file(file_path, as_attachment=True)
 
 
-# ── Run ──────────────────────────────────────────────────
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000)
+# # ── Run ──────────────────────────────────────────────────
+# if __name__ == '__main__':
+#     app.run(host="0.0.0.0", port=5000)
 
 
 
